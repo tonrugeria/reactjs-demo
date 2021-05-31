@@ -1,11 +1,15 @@
 import React from "react"
+import Navmenu from "./HeaderComponents/Navmenu"
 
 function Header() {
     return (
         <div>
-            THIS IS THE HEADER
+            <Navmenu />
         </div>
     )
 }
 
 export default Header
+
+
+
