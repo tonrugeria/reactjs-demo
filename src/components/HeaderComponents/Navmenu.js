@@ -15,7 +15,7 @@ function Navmenu() {
     return (
         <div>
             <Navbar className="navbar" variant="dark" expand="lg" sticky="top">
-                <Navbar.Brand style={{fhNameStyle}}>
+                <Navbar.Brand style={fhNameStyle}>
                     <Logo height="60px" />
                     FICTIONHUB
                 </Navbar.Brand>

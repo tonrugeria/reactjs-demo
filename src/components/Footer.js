@@ -1,10 +1,20 @@
 import React from "react"
+import { Container, Row } from "react-bootstrap"
+import SocialIcons from "./FooterComponents/SocialIcons"
+import BeOurFriend from "./FooterComponents/BeOurFriend"
+import NeedAssistance from "./FooterComponents/NeedAssistance"
+import StoreHours from "./FooterComponents/StoreHours"
 
 function Footer() {
     return (
-        <div>
-            THIS IS THE FOOTER
-        </div>
+        <Container className="footer">
+            <Row>
+                <SocialIcons />
+                <BeOurFriend />
+                <NeedAssistance />
+                <StoreHours />
+            </Row>
+        </Container>
     )
 }
 

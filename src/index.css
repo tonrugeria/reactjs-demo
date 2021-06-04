@@ -37,3 +37,87 @@ code {
 #basic-nav-dropdown {
   color: rgba(255,255,255,.8) !important
 }
+
+/* FOOTER */
+.footer{
+  background-color: rgb(51,51,51);
+  padding-top: 20px;
+  padding-left: 20% !important;
+  padding-right: 20% !important;
+  max-width: 100% !important;
+}
+
+.footer-items {
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 35px;
+}
+
+.email-box {
+  background-color: rgb(130,130,130) !important;
+  color: white !important;
+  border: none !important;
+  max-width: 100%;
+  border-radius: 0% !important;
+}
+
+.subscribe-box {
+  background-color: rgb(85,85,85);
+  max-width: 100%;
+  padding: 15px !important;
+}
+
+.subscribe-btn {
+  background-color: rgb(200,200,200) !important;
+  color:black !important;
+  border:none !important;
+  border-radius: 0% !important;
+  text-align: center !important;
+  font-family: 'Raleway', sans-serif;
+}
+
+.subscribe-btn:hover {
+  background-color: rgb(250,250,250) !important;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+
+.form-control::-webkit-input-placeholder {
+  color: white !important;
+}
+
+/* HOME */
+
+.feat-box {
+  background-color: rgba(81,81,81,.5);
+  padding: 3vw 0;
+  margin: auto;
+  text-align: center;
+}
+
+.feat-text {
+  font-family: 'Spinnaker', sans-serif;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.92px;
+  font-size: 46px;
+}
+
+.feat-btn {
+  letter-spacing: 0.5px;
+  background-color: rgb(85,85,85) !important;
+  color:white !important;
+  border-radius: 0px !important;
+  border:none !important;
+  align-items: center;
+  font-size: 18px !important;
+}
+
+.feat-btn:hover {
+  background-color: rgb(250,250,250) !important;
+  color: rgb(85,85,85) !important;
+}
