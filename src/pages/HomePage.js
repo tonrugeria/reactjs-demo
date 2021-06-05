@@ -1,9 +1,10 @@
 import React from "react"
+import FeaturedBanner from "../components/HomeComponents/FeaturedBanner"
 
 function HomePage() {
     return (
         <div>
-            THIS IS THE HOMEPAGE
+            <FeaturedBanner />
         </div>
     )
 }
