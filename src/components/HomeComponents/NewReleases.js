@@ -1,8 +1,9 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import { FaCentercode } from "react-icons/fa"
+import Cards from "./Cards"
 
 function NewReleases() {
+
     return (
         <div>
             <Container className="new-release-div" fluid>
@@ -17,7 +18,9 @@ function NewReleases() {
                     </Col>
                 </Row>
                 <Row className="h-100">
-                    SOMETHING
+                    <Cards id="3" title="EIGHTY-SIX"></Cards>
+                    <Cards id="4" title="READY PLAYER ONE"></Cards>
+                    <Cards id="5" title="BATMAN"></Cards>
                 </Row>
             </Container>
         </div>
