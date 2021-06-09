@@ -1,7 +1,8 @@
 import React from "react"
 import FeaturedBanner from "../components/HomeComponents/FeaturedBanner"
+import "../styles/pages/Home.css"
 
-function HomePage() {
+function Home() {
     return (
         <div>
             <FeaturedBanner />
@@ -9,4 +10,4 @@ function HomePage() {
     )
 }
 
-export default HomePage
+export default Home

@@ -1,5 +1,6 @@
 import React from "react"
 import Navmenu from "./HeaderComponents/Navmenu"
+import "../styles/components/Header.css"
 
 function Header() {
     return (
