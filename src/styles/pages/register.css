@@ -1,0 +1,19 @@
+
+
+.btn-primary {
+    font-family:'Raleway',sans-serif !important; 
+    color: #fff !important;
+    background-color: #4C6A6e !important;
+    border-color: #4C6A6e !important;
+  }
+
+  .form-control {
+      border-radius: 0% !important;
+  }
+
+  .custom-btn {
+    font-family: 'Raleway', sans-serif !important;
+    border: none !important;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
